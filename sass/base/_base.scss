@@ -1,0 +1,50 @@
+
+.body {
+    background: $primary-white-color; 
+    font-family: $font-family;
+ }
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    &:focus {
+    outline: none;
+    }
+}
+
+.section__first {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section__second {
+    background-color: #F5F4FA;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section__third {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 94px;
+}

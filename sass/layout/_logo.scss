@@ -1,0 +1,25 @@
+.logo {
+    margin-right: 93px;
+
+    &__title {
+        color: $primary-black-color;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    &__header {
+        color: $accent-color;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+}
+
+.nav__main {
+    display: flex;
+    align-items: center;
+    
+}

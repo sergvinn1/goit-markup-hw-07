@@ -1,0 +1,11 @@
+.invitation {
+    margin-right: 93px;
+    &__item {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: $primary-white-color;
+        margin: 0px;
+    }
+}

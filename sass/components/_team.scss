@@ -1,0 +1,39 @@
+.team {
+    display: flex;
+    &__img {
+        margin-right: 30px;
+        background-color: #fff;
+        width: 270px;
+        height: 428px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+    &__img:last-child {
+        margin-right: 0px;
+    }
+    &__item {
+        margin: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &__proffesion {
+        display: inline-block;
+        color: var(--title-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 16px;  
+    }
+    &__name {
+        color: $primary-text-color;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
+
+

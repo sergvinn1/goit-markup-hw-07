@@ -1,0 +1,71 @@
+.mailing {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-white-color;
+    margin: 0px;
+    margin-bottom: 20px;
+    &__text {
+        margin: 0;   
+    }
+    &__flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+    }
+    &__footer {
+        margin-bottom: 4px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #757575;
+    }
+    &__subscribe {
+        height: 48px;
+        width: 358px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        padding: 20px;
+        background-color: transparent;
+        color: $primary-white-color;
+    }
+    &__button {
+        margin-left: 12px;
+    }
+    &__pressbutton {
+        width: 200px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        background-color: $accent-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+        color: $primary-white-color;
+        cursor: pointer;
+        padding-right: 29px;
+        position: relative;
+    }
+    &__telegram {
+        position: absolute;
+        display: inline-block; 
+        fill: #ffffff;
+        top: 30%;
+        right: 10%;
+        width: 24px;
+        height: 24px;
+    }
+}
