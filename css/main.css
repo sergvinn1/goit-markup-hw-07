@@ -91,7 +91,7 @@ button:focus {
           align-items: center;
 }
 
-.border {
+.nav__border {
   border-bottom: 1px solid #ececec;
 }
 
@@ -241,7 +241,7 @@ button:focus {
   text-align: center;
 }
 
-.button__link {
+.button__hero {
   display: inline-block;
   color: #ffffff;
   background-color: #2196F3;
