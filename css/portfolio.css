@@ -466,7 +466,6 @@ button:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -497,7 +496,6 @@ button:focus {
 
 .mailing__footer {
   margin-bottom: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -527,7 +525,6 @@ button:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
