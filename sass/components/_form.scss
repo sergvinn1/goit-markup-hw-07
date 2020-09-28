@@ -3,7 +3,6 @@
     margin-right: auto;
     margin-left: auto;
     &__text {
-        font-family: Roboto;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -20,7 +19,6 @@
         position: relative;
     }
     &__label {
-        font-family: Roboto;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -126,10 +124,6 @@
                 margin-top: 30px;
             }
             &__policy {
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
                 line-height: 0.58;
                 letter-spacing: 0.03em;
                 color: $title-text-color;
@@ -157,7 +151,6 @@
 }
 
 .form__textarea::placeholder {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
